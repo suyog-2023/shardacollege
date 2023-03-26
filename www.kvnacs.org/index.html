@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+
+
+<html xmlns="https://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+        KVNACS.ORG
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,500" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?Titillium+Web=Oswald:400,700|Roboto:400,500" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" />
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/offcanvas.min.css" rel="stylesheet" />
+
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu>.dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -6px;
+            margin-left: -1px;
+            -webkit-border-radius: 0 6px 6px 6px;
+            -moz-border-radius: 0 6px 6px 6px;
+            border-radius: 0 6px 6px 6px;
+        }
+
+        .dropdown-submenu:hover>.dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-submenu>a:after {
+            display: block;
+            content: " ";
+            float: right;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 5px 0 5px 5px;
+            border-left-color: #000000;
+            margin-top: 5px;
+            margin-right: -10px;
+        }
+
+        .dropdown-submenu:hover>a:after {
+            border-left-color: #000000;
+        }
+
+        .dropdown-submenu.pull-left {
+            float: none;
+        }
+
+        .dropdown-submenu.pull-left>.dropdown-menu {
+            left: -100%;
+            margin-left: 10px;
+            -webkit-border-radius: 6px 0 6px 6px;
+            -moz-border-radius: 6px 0 6px 6px;
+            border-radius: 6px 0 6px 6px;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+
+            $("#text-carousel").owlCarousel({
+                items: 1,
+                autoplay: true,
+                dots: false,
+                slidespeed: 300,
+                autoplayHoverPause: true,
+                //autoplayTimeout: 3000,
+                loop: true
+            });
+
+        });
+    </script>
+
+    <script>
+        $('.dropdown-toggle').click(function (e) {
+            e.preventDefault();
+            setTimeout($.proxy(function () {
+                if ('ontouchstart' in document.documentElement) {
+                    $(this).siblings('.dropdown-backdrop').off().remove();
+                }
+            }, this), 0);
+        });
+    </script>
+    <style>
+        .dropdown-backdrop {
+            z-index: 0;
+        }
+    </style>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MT98JCE1KN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-MT98JCE1KN');
+    </script>
+
+
+    <script>
+    </script>
+    <style>
+        .h3Links {
+            padding: 0px !important;
+            margin: 0px !important;
+            text-align: center !important;
+        }
+
+        .h3Links a:link {
+            color: blue !important;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+
+            $("#text-carousel1").owlCarousel({
+                items: 1,
+                autoplay: true,
+                dots: false,
+                slidespeed: 300,
+                autoplayHoverPause: true,
+                //autoplayTimeout: 3000,
+                loop: true
+            });
+
+        });
+    </script>
+    <style>
+        .btnCSSForDisplay {
+            margin-bottom: 1% !important;
+            /*background-color: #000066 !important;*/
+            background-color: #2f4f4f !important;
+            font-weight: normal !important;
+            text-align: center !important;
+            align-content: center !important;
+            width: 100% !important;
+            color: white !important;
+            /*height: 35px !important;*/
+            white-space: normal;
+        }
+    </style>
+    <style>
+        .container1 {
+            width: 100% !important;
+            height: 25em;
+            margin: 1em auto;
+            overflow: hidden;
+            background: white;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .marquee {
+            top: 6em;
+            position: relative;
+            box-sizing: border-box;
+            animation: marquee 10s linear infinite;
+        }
+
+        .marquee:hover {
+            animation-play-state: paused;
+        }
+
+        /* Make it move! */
+
+        @keyframes marquee {
+            0% {
+                top: 15em;
+            }
+
+            100% {
+                top: -11em;
+            }
+        }
+
+        /* Make it look pretty */
+
+        .microsoft .marquee {
+            margin: 0;
+            padding: 0 1em;
+            line-height: 1.5em;
+            font: 1em 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+        }
+
+        .microsoft:before,
+        .microsoft::before,
+        .microsoft:after,
+        .microsoft::after {
+            left: 0;
+            z-index: 1;
+            content: '';
+            position: absolute;
+            pointer-events: none;
+            width: 100%;
+            height: 2em;
+            background-image: linear-gradient(180deg, #FFF, rgba(255, 255, 255, 0));
+        }
+
+        .microsoft:after,
+        .microsoft::after {
+            bottom: 0;
+            transform: rotate(180deg);
+        }
+
+        .microsoft:before,
+        .microsoft::before {
+            top: 0;
+        }
+
+        /* Style the links */
+
+        .vanity {
+            color: #333;
+            text-align: center;
+            font: .75em 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+        }
+
+        .vanity a,
+        .microsoft a {
+            color: #1570A6;
+            transition: color .5s;
+            text-decoration: none;
+        }
+
+        .vanity a:hover,
+        .microsoft a:hover {
+            color: #F65314;
+        }
+
+        /* Style toggle button */
+
+        .toggle {
+            display: block;
+            margin: 2em auto;
+        }
+    </style>
+
+    <script>
+        $(".toggle").on("click", function () {
+            $(".container").toggleClass("microsoft");
+        });
+    </script>
+
+    <style>
+        .cssClassExtraPara {
+            color: black !important;
+            font-weight: normal;
+            font-size: 12px;
+            text-align: justify !important;
+            text-indent: 5%;
+            font-weight: bold !important;
+            font-family: Arial !important;
+        }
+    </style>
+
+    <link
+        href="/WebResource.axd?d=UT1Cj7SEzX8U-GEgOjD-q-wD91z5dtCrvMmKUf3VhvNWrEpwZ1rlpuWHlxkmFviWePr7uUNN5jKlWbTFTBmfM7fGqTTZfTMuQYd_1TT_C3eD1ZvbZdJVbQeI5sGaBoHozmXfNr9X7QJxC0JsSqFPAA2&amp;t=637010408838051735"
+        type="text/css" rel="stylesheet" />
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+    <form method="post" action="./" id="form1">
+        <div class="aspNetHidden">
+            <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+            <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
+                value="oUXZcZDdZzjLWcj//58tlXp/1FNA+CzTdnoDZTDSfWINlLLoGQ2KyILBS1Oftd04LLq9UQ8AQpyjAaIMe+I9F2iz5CfEMkZYx4uKpTaf33JS2HdS" />
+        </div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+            var theForm = document.forms['form1'];
+            if (!theForm) {
+                theForm = document.form1;
+            }
+
+            function __doPostBack(eventTarget, eventArgument) {
+                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                    theForm.__EVENTTARGET.value = eventTarget;
+                    theForm.__EVENTARGUMENT.value = eventArgument;
+                    theForm.submit();
+                }
+            }
+            //]]>
+        </script>
+
+
+        <script
+            src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZJKvFSpQ-Fasrqgum7efBZ8ldOyj8W7onIS37Ma3k731bRxE7OHAjyFwFB8e5rbwyQ2&amp;t=637118431340000000"
+            type="text/javascript"></script>
+
+
+        <script
+            src="/ScriptResource.axd?d=D9drwtSJ4hBA6O8UhT6CQqKnTq3OzC7WVMtAM_aAcG4NCxZ2OS-jMbCnBtkeaVmouaNqRilKGNbQ-X5QBIdC8--MYY3EQoGP0X7Tp-hW5pfLxUY1Si-EsixT7QCctPWZhaNH3T_jCvy8Yr8NDFfEgLuWKqMHazl3Zt7pOYlMawg1&amp;t=ffffffffe6d5a9ac"
+            type="text/javascript"></script>
+        <script type="text/javascript">
+            //<![CDATA[
+            if (typeof (Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+            //]]>
+        </script>
+
+        <script
+            src="/ScriptResource.axd?d=JnUc-DEDOM5KzzVKtsL1tfaFO51yPzpoREuL1pCE0aBxdw7tAinBn03rxO4dBTKgvtfNgSxzgJ9mrRgyCqVDBfaEr2i0i0PTY59-FvlGWcR8FXzleQuxJq6lfK3GqUYC2YaEKubEui2DLEkriebnp10p7Gj8PP90L8rsWX2c8PMlil1fcb5UvsCRAtOdLNSk0&amp;t=ffffffffe6d5a9ac"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=pVdHczR8HTv0TYtXLibFoEfoMYWSrZqI66dWgbVpVBBs3Gn2eFm6FaPvXKzFj4Q3tMkdBB8oMUyikFMYUU1lkW-uUGemIeeq1YuBLwOpI0PKOoxG9a3lceGGy7tOz6i_RhY4yUVFs3ocXKsYSY-boA2&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=iC2sD0Al8A6ZX4AVmUco0Zv8lVpeYULG9lxZCrU97mc6Od56qDIXTsLkFPy0fh73e0TIA2ciHKq0IgUzEQrVLBzKZmeSd7os9qEqVQZq8OOe4qUd0UBB2YGbc56glLY60&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=LpGQnoKUSgO3ODsBUs8GfaKUkwxhoh6_fREjEXhaqslxq05bukWq9-1eZMHUHt7NZTB5HDoedOy5gHr6sYdp_YrtH9edPg8qV1rwJTju_TV2BerIAfH7-21oOyYHnw3B0&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=-qISl4-OkT-7X02E4Fisr8dLtuDs-4nVITP1iDtnvdeW4HLyvSHJFDVKHGRDZB2Zfh5dY2b-p_up4u-Zigco72XeiXpf0tzNQE_xIjYBuNqtVjMMZwGibSsChZ_8V-CF0&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=rFItVvyVSHru2mWi6oVDAdzMsIzHWwD4iF9j5yT9I2XwDUk_2e8EsQzqtQ6fHB-ApHm-bziB7amOdpiIgmYSDz8qTM2ulTdBXscsNbGnpWBRtxvCnTl_pSg4yt8kTSLx0&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=VXG5HWKmJ5VfT6XbkUxKRjzeu4JJcqM1yHk17Pb9plqoumTpPQ1_RJHu_9FC1Kyp39ngI5QIr0Z5a9sT5gHNpq4dITOuaB-bVBj3XrSoQ7EBidM8YGjrBnxjMIi_Nmas0&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=UOhNCrWepwbJqlILLLhLzez_i-ehRIyO1oJ-zcMYt9h6Uy-st48uTLgThS6mVYx6G5SvC3gCCzG90v5eBKluJmJzegwjSQH1C50O7fFkFJilCKDSVhXoFx-FiqW3p1qx0&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=5Ptu7TR6eeUMpbV-tOSG6qM9qJrOZmYcJ0fME1fiOxwtke6snTQJ5C9yTY8v37Po835A7PUS7R6Sgzn2dMVO00TZ1Y17xpH4Pyu3krdi56lXfts8F6nPS34Y_rOmiOOY0&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=yq2dglGiX2GonGqAbqjStuI8IoTWTHgwUMfuKV0c8SeKdSBPaUlfUPtNoR215iLF4bU6smWvs5X2AwRW2PNOhWsiNJrGUhfBELrLtC3YU7rt1RcR6zMarkrrpfeRqOtM0&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=q85rlLsZEVu9loex9kzISAtCaJkkhe24Z73qw7OddLgzzxdBe3ks2QPg2o8SJfQorvK23BtHxjHNWJTlA1kRhugSBU8gvOEap3SEQjSDePE2fWmkxb4SNB5M0ZwqB32I0&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=9fVK6SOzqud8-CG5DRcWdXZ4XLJIU6rIQxPvcs4ak5vSnLeoGg67TPX7aZ0TnnoIPDlH-YCArkNYzD2JM2rZgZH66AItNENoynFfN9k8aNwHcROYLHPBWc1woNPAcQaY0&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=FJYGXcD0D1IU18YZcc5S5R40Uap1Ri9c5w60Vbekr0XzDK7GGZBXU5zmwKJkgZYzBrN63p-saIdEx527desf21vKp6-_PoezK2blG089n35CK8gOgi3ygcl-O7c25_3f0&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=qTnPOILsJCPbmGgsgyJ0exwFLnjZtIv9f6Vcd-nW70gj1Svv0Pi8knRpHw9KgZllE7_teh-0aVTkK4KdUFSXZ3U-ExnmP8A5DqiulCzenaLCx1VbPiiNcYBtCq0qe2V00&amp;t=ffffffff81a867ec"
+            type="text/javascript"></script>
+        <div class="aspNetHidden">
+
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+            <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION"
+                value="ehhB2vlqphrZGiEifhg3PtW/lSEXEFBYIf54P9VeU5gYj5ufM6T4Y07IR0zWBbxzasijV7sHOvIc+HrixGWINSNWkcXec38L/Q5PHyZOkuWb3R3JwKgGrPHRJQotmCQn" />
+        </div>
+        <script type="text/javascript">
+            //<![CDATA[
+            Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+            //]]>
+        </script>
+
+        <div id="main-wrapper">
+            <header>
+
+                <div class="container">
+                    <div class="top_ber">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="text-carousel" class="carousel slide" data-ride="carousel">
+
+                                    <div class="carousel-inner"
+                                        style="background-color: rgb(113, 198, 255) !important; color: #fff !important; padding: 5px 0px 0px 0px !important;">
+
+
+                                        <hr
+                                            style="padding: 0px !important; margin: 1px 0px 3px 0px !important; height: 3px !important; border-top: 4px solid #fff; width: 100% !important;" />
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="header-section">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="logo">
+                                    <a href="#">
+                                        <img id="imgLogoTopLeft" class="img-responsive" src="./assets/img/logo.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8" style="padding-left: 0px !important; margin-left: 0px !important;">
+                                <div class="header_ad_banner">
+                                    <a href="#">
+
+                                        <div class="row text-center" style="padding-top: 3% !important">
+
+                                            <div class="col-sm-12" style="padding-bottom: 2px !important;">
+                                                <span id="lblTrustNameTop"
+                                                    style="color: black !important; padding-bottom: 5% !important; font-weight: bold !important;">Om
+                                                    Sai Samajik Sevabhavi Sanstha's</span>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <span id="lblOrgNameTop"
+                                                    style="font-family: 'Oswald', sans-serif; font-weight: bold!important; font-size: 1.7vw !important; color: orangered; text-decoration: underline !important; text-transform: capitalize !important; padding-top: 5% !important; padding-bottom: 5% !important;">Sharda
+                                                    College (BCA, BBA) Sinnar</span>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <span id="lblAddressTop"
+                                                    style="font-family: 'Titillium Web', Open Sans; font-size: 1.3vw; color: #000 !important; text-transform: capitalize !important;">Adva
+                                                    Phata Saradwadi Road, Sinnar, Tal Sinnar, Dist. Nashik (M.S.)
+                                                    422103</span>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <span id="lblContactNoTop"
+                                                    style="font-family: 'Titillium Web', Open Sans; font-size: 1.3vw; color: #000 !important; text-transform: capitalize !important;">☎
+                                                    02551-220870,</span>
+                                                <br>
+                                                <span id="lblContactNoTop"
+                                                    style="font-family: 'Titillium Web', Open Sans; font-size: 1.3vw; color: #000 !important;">Email
+                                                    - sharda.college09@gmail.com, omsaitrust@gmail.com</span>
+
+
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <span id="lblInfoLine1Top"
+                                                    style="color: orangered !important; padding-bottom: 5% !important; font-weight: bold !important;">Affiliated
+                                                    to Savitribai Phule Pune University & Recognised bt Govt. of
+                                                    Maharashtra.</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2 pull-right">
+                                <div class="logo">
+                                    <a href="#">
+
+                                        <!-- <img id="imgLogoTopRight" class="img-responsive"
+                                            src="_00_KVNACSNASHIK_DC/_02_Images/_01_Org_Images/Vasantrao_naik.png" /> -->
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="navbar main-menu navbar-inverse navbar-static-top" role="navigation">
+                    <div class="container">
+
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="offcanvas">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                    </div>
+                </nav>
+            </header>
+
+            <section id="feature_news_section" class="feature_news_section section_wrapper">
+                <div class="container">
+                    <div class="row" style="padding-bottom:0px !important; margin-bottom:0px !important;">
+                        <div class="col-md-12">
+                            <table class="table table-responsive"
+                                style="padding-bottom:0px !important; margin-bottom:0px !important;">
+                                <tr>
+                                    <td style="width: 20% !important; padding-bottom:0px !important; margin-bottom:0px !important;"
+                                        class="text-center">
+
+                                        <div class="single_related_news"
+                                            style="padding: 0px !important; margin: 0px !important;">
+                                            <div class="single_media_title">
+                                                <h2 style="padding-right: 13% !important;">
+                                                    <span id="ContentPlaceHolder1_lblAboutUsTitle1"
+                                                        style="color:DarkSlateGray;font-size:16px;">From President's
+                                                        Desk</span>
+                                                </h2>
+                                            </div>
+                                            <div class="media_wrapper">
+                                                <div class="media"
+                                                    style="padding-bottom:0px !important; margin-bottom:0px !important;">
+
+                                                    <div class="media-body">
+                                                        <div class="media_content text-center">
+                                                            <div class="row">
+                                                                <div
+                                                                    class=" col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-sm-8 col-lg-8 col-md-8">
+                                                                    <img id="ContentPlaceHolder1_imgDetailsImage"
+                                                                        src="https://png.pngtree.com/png-vector/20220608/ourmid/pngtree-unnamed-user-avatar-icon-profile-png-image_4816337.png"
+                                                                        style="width: 90% !important;" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href='Org_Data_01_About_Us_Details_Page.aspx?DateTime=3/25/2023 9:37:21 PM&ID=XCUZ3HKR&Page_ID=PRESIDENT DESK&UC=31696e98-5c6f-4341-a4b2-7026df297aba'
+                                                            style="color: red !important; font-weight: bold !important;">Hon’ble
+                                                            President</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="single_related_news"
+                                            style="padding: 0px !important; margin: 0px !important;">
+                                            <div class="single_media_title"
+                                                style="padding: 0px !important; margin: 0px !important; padding-top: 0px !important; margin-top: 0px !important;">
+                                                <h2 style="padding-right: 15% !important;">
+                                                    <span id="ContentPlaceHolder1_lblAboutUsTitle"
+                                                        style="color:DarkSlateGray;font-size:16px;">From Principal's
+                                                        Desk</span>
+                                                </h2>
+                                            </div>
+                                            <div class="media_wrapper">
+                                                <div class="media"
+                                                    style="padding-bottom:0px !important; margin-bottom:0px !important;">
+
+                                                    <div class="media-body text-center">
+                                                        <div class="media_content text-center">
+                                                            <div class="row">
+                                                                <div
+                                                                    class=" col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-sm-8 col-lg-8 col-md-8">
+                                                                    <img id="ContentPlaceHolder1_Image1"
+                                                                        class="img-responsive"
+                                                                        src="https://png.pngtree.com/png-vector/20220608/ourmid/pngtree-unnamed-user-avatar-icon-profile-png-image_4816337.png"
+                                                                        style="width: 90% !important;" />
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <a href='Org_Data_01_About_Us_Details_Page.aspx?DateTime=3/25/2023 9:37:21 PM&ID=XCUZ3HKR&Page_ID=PRINCIPAL DESK&UC=a151834e-45b7-4b41-a0d5-928e341fd735'
+                                                            style="color: red !important; font-weight: bold !important;">Hon’ble
+                                                            Principal
+                                                            <a href="https://kvnnashik.vriddhionline.com"
+                                                                target="_blank">
+                                                                <img id="ContentPlaceHolder1_Image2"
+                                                                    src="assets/img/eSequin_Images/Online_Admission_blinker.gif"
+                                                                    style="height: 25px !important; width: 115px !important;" />
+
+                                                            </a>
+                                                            <a
+                                                                href='E_Data_03_Single_Page.aspx?DateTime=7/16/2020%2010:07:40%20AMPTitle=KVNACS_ORG&amp;ID=91FWXDZQ&amp;Page_ID=155-666-148-965-899&amp;DID=KVNACSNASHIK-E-CONTENT-GENERAL-COLLEGE-MULTIPLE-LIST&amp;TypePage=KVNACSNASHIK-E-CONTENT-GENERAL-COLLEGE-MULTIPLE-LIST&amp;SubTypePage=E-Content Title Details'>
+                                                                <img id="ContentPlaceHolder1_Image3"
+                                                                    src="assets/img/eSequin_Images/E-Content.gif"
+                                                                    style="height: 25px !important; width: 105px !important; padding-bottom:0px !important; margin-bottom:0px !important;" />
+                                                            </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </td>
+                                    <td
+                                        style="width: 60% !important; padding-bottom:0px !important; margin-bottom:0px !important;">
+                                        <div class="feature_news_carousel">
+                                            <div id="featured-news-carousal" class="carousel animated slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner" role="listbox">
+
+
+                                                    <div class='item active feature_news_item animated slide'
+                                                        style="animation-duration: .5s !important;">
+
+                                                        <img id="ContentPlaceHolder1_rptrNewsTickerSlider_imgSliderImage_0"
+                                                            class="img-responsive" src="./assets/img/1.png.jpg"
+                                                            alt="KVN Nashik" />
+
+                                                        <div class="carousel-caption"
+                                                            style="background-color: white !important; padding: 0px!important;">
+                                                            <h4><a href='Home_Page_01_Ticker_Slider_Data_Display.aspx?3/25/2023 9:37:21 PM&ID=TS5XMCGK&Page_ID=0bb6ceab-8d68-47c9-92be-38f676dfb6c6&Cat=Home_Page_Slider&UC=6dd730ac-4c40-4242-909e-bf50b224aeae&Title=Slider'
+                                                                    style="color: blue !important;">Events of the
+                                                                    college</a></h4>
+
+                                                        </div>
+
+
+                                                    </div>
+
+
+                                                    <div class='item feature_news_item animated slide'
+                                                        style="animation-duration: .5s !important;">
+
+                                                        <img id="ContentPlaceHolder1_rptrNewsTickerSlider_imgSliderImage_1"
+                                                            class="img-responsive" src="./assets/img/2..jpg"
+                                                            alt="KVN Nashik" />
+
+                                                        <div class="carousel-caption"
+                                                            style="background-color: white !important; padding: 0px!important;">
+                                                            <h4><a href='Home_Page_01_Ticker_Slider_Data_Display.aspx?3/25/2023 9:37:21 PM&ID=TS5XMCGK&Page_ID=0bb6ceab-8d68-47c9-92be-38f676dfb6c6&Cat=Home_Page_Slider&UC=36fd2686-aa97-4448-9bcc-74ee64ceedb6&Title=Slider'
+                                                                    style="color: blue !important;">Visited to
+                                                                    College</a></h4>
+
+                                                        </div>
+
+
+                                                    </div>
+
+
+                                                    <div class='item feature_news_item animated slide'
+                                                        style="animation-duration: .5s !important;">
+
+                                                        <img id="ContentPlaceHolder1_rptrNewsTickerSlider_imgSliderImage_2"
+                                                            class="img-responsive" src="./assets/img/3..jpg"
+                                                            alt="KVN Nashik" />
+
+                                                        <div class="carousel-caption"
+                                                            style="background-color: white !important; padding: 0px!important;">
+                                                            <h4><a href='Home_Page_01_Ticker_Slider_Data_Display.aspx?3/25/2023 9:37:21 PM&ID=TS5XMCGK&Page_ID=0bb6ceab-8d68-47c9-92be-38f676dfb6c6&Cat=Home_Page_Slider&UC=ec361709-1dda-4e61-8510-78adae06e791&Title=Slider'
+                                                                    style="color: blue !important;">Women
+                                                                    Empowerment</a></h4>
+
+                                                        </div>
+
+
+                                                    </div>
+
+
+                                                    <div class='item feature_news_item animated slide'
+                                                        style="animation-duration: .5s !important;">
+
+                                                        <img id="ContentPlaceHolder1_rptrNewsTickerSlider_imgSliderImage_3"
+                                                            class="img-responsive" src="./assets/img/4..jpg"
+                                                            alt="KVN Nashik" />
+
+                                                        <div class="carousel-caption"
+                                                            style="background-color: white !important; padding: 0px!important;">
+                                                            <h4><a href='Home_Page_01_Ticker_Slider_Data_Display.aspx?3/25/2023 9:37:21 PM&ID=TS5XMCGK&Page_ID=0bb6ceab-8d68-47c9-92be-38f676dfb6c6&Cat=Home_Page_Slider&UC=c09b77f3-6600-451b-bd07-9a22535e38ea&Title=Slider'
+                                                                    style="color: blue !important;">At Ground</a></h4>
+
+                                                        </div>
+
+
+                                                    </div>
+
+
+                                                    <div class='item feature_news_item animated slide'
+                                                        style="animation-duration: .5s !important;">
+
+                                                        <img id="ContentPlaceHolder1_rptrNewsTickerSlider_imgSliderImage_4"
+                                                            class="img-responsive" src="./assets/img/5.jpg"
+                                                            alt="KVN Nashik" />
+
+                                                        <div class="carousel-caption"
+                                                            style="background-color: white !important; padding: 0px!important;">
+                                                            <h4><a href='Home_Page_01_Ticker_Slider_Data_Display.aspx?3/25/2023 9:37:21 PM&ID=TS5XMCGK&Page_ID=0bb6ceab-8d68-47c9-92be-38f676dfb6c6&Cat=Home_Page_Slider&UC=2c1f8bf4-80f2-4853-8d43-320c857fd096&Title=Slider'
+                                                                    style="color: blue !important;">नॅक पुनर्मूल्यांकन
+                                                                    (3rd Cycle) राष्ट्रीय मूल्यांकन व प्रत्‍यायन परिषद
+                                                                    (NAAC) द्वारा B++ श्रेणी (CGPA 2.84) प्राप्त
+                                                                    झाल्याबद्दल महाविद्यालयाचे मनःपूर्वक *हार्दिक
+                                                                    अभिनंदन ....!</a></h4>
+
+                                                        </div>
+
+
+                                                    </div>
+
+
+                                                    <div class='item feature_news_item animated slide'
+                                                        style="animation-duration: .5s !important;">
+
+                                                        <img id="ContentPlaceHolder1_rptrNewsTickerSlider_imgSliderImage_5"
+                                                            class="img-responsive" src="./assets/img/6.jpg"
+                                                            alt="KVN Nashik" />
+
+                                                        <div class="carousel-caption"
+                                                            style="background-color: white !important; padding: 0px!important;">
+                                                            <h4><a href='Home_Page_01_Ticker_Slider_Data_Display.aspx?3/25/2023 9:37:21 PM&ID=TS5XMCGK&Page_ID=0bb6ceab-8d68-47c9-92be-38f676dfb6c6&Cat=Home_Page_Slider&UC=06f5c85c-1da8-4c9a-88bc-2bf9a1c37bab&Title=Slider'
+                                                                    style="color: blue !important;">Welcome to ARTS,
+                                                                    COMMERCE AND SCIENCE COLLEGE NASHIK Web Portal</a>
+                                                            </h4>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class='item feature_news_item animated slide'
+                                                        style="animation-duration: .5s !important;">
+
+                                                        <img id="ContentPlaceHolder1_rptrNewsTickerSlider_imgSliderImage_6"
+                                                            class="img-responsive" src="./assets/img/7.jpg"
+                                                            alt="KVN Nashik" />
+
+                                                        <div class="carousel-caption"
+                                                            style="background-color: white !important; padding: 0px!important;">
+                                                            <h4><a href='Home_Page_01_Ticker_Slider_Data_Display.aspx?3/25/2023 9:37:21 PM&ID=TS5XMCGK&Page_ID=0bb6ceab-8d68-47c9-92be-38f676dfb6c6&Cat=Home_Page_Slider&UC=c3a3a91d-90cd-4c8b-9ffb-7b85066e9d4d&Title=Slider'
+                                                                    style="color: blue !important;">Activities,
+                                                                    Initiatitves, Conferences, Paper Presenations,
+                                                                    Sports Events, Social Events and Student
+                                                                    Involment</a></h4>
+
+                                                        </div>
+
+
+                                                    </div>
+
+
+
+
+                                                    <div class="control-wrapper">
+                                                        <a class="left carousel-control" href="#featured-news-carousal"
+                                                            role="button" data-slide="prev">
+                                                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                                        </a>
+                                                        <a class="right carousel-control" href="#featured-news-carousal"
+                                                            role="button" data-slide="next">
+                                                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </td>
+                                    <td
+                                        style="width: 20% !important; padding-bottom:0px !important; margin-bottom:0px !important;">
+                                        <h2 style="color: blue !important;">News & Announcements</h2>
+                                        <div class="microsoft container1">
+                                            <p class="marquee">
+
+                                                <a href='Display_Data_01E_Display_Album_Category_Data_Display_Page.aspx?3/25/2023 9:37:21 PM&ID=J6IR3ASM&Page_ID=Notices_Circulars&Cat=Notices&UC=4ae2446a-05df-4021-9c76-7c43c835c583&Title=News_Ticker'
+                                                    style="text-transform: initial !important; color: #000000 !important;"
+                                                    target="_blank">
+                                                    1. महत्वाची सूचना महाविद्यालयातील ज्या विद्यार्थ्यांनी SC ,ST ,NT व
+                                                    OBC प्रवर्गातून प्रवेश घेतला आहे त्यांनी त्वरित शिष्यवृती अर्ज सादर
+                                                    करावा अन्यथा पूर्ण प्रवेश शुल्क भरावे लागेल याची नोंद
+                                                    घ्यावी-प्राचार्य , के.व्ही एन नाईक कॉलेज ,नाशिक
+                                                    <span
+                                                        style="color: blue !important; font-weight: bolder !important;">......................................................</span>
+                                                </a>
+
+                                                <a href='Display_Data_01E_Display_Album_Category_Data_Display_Page.aspx?3/25/2023 9:37:21 PM&ID=J6IR3ASM&Page_ID=Exam_Notices&Cat=Notices&UC=9a68e2d0-5e56-42af-a0a6-729f52e85683&Title=News_Ticker'
+                                                    style="text-transform: initial !important; color: #000000 !important;"
+                                                    target="_blank">
+                                                    2. पुणे विद्यापीठ ऑक्टोबर 2022 परीक्षा Hall Ticket download साठी
+                                                    विद्यार्थ्यांनी येथे क्लिक करा <a
+                                                        href=https://kvnacs.org/Downloads_02_List_Page.aspx
+                                                        style='color:red; font-weight:bold;'>Click here</a>
+                                                    <span
+                                                        style="color: blue !important; font-weight: bolder !important;">......................................................</span>
+                                                </a>
+
+                                                <a href='Display_Data_01E_Display_Album_Category_Data_Display_Page.aspx?3/25/2023 9:37:21 PM&ID=J6IR3ASM&Page_ID=Exam_Notices&Cat=Notices&UC=370ff612-4d33-4615-b1e1-d38a946a8661&Title=News_Ticker'
+                                                    style="text-transform: initial !important; color: #000000 !important;"
+                                                    target="_blank">
+                                                    3. पुणे विद्यापीठ ऑक्टोबर 2022 परीक्षा Time Table साठी
+                                                    विद्यार्थ्यांनी येथे क्लिक करा <a
+                                                        href=http://collegecirculars.unipune.ac.in/sites/examdocs/Timetable%20OCTNOV%202022/Forms/AllItems.aspx
+                                                        style='color:red; font-weight:bold;'>Click here</a>
+                                                    <span
+                                                        style="color: blue !important; font-weight: bolder !important;">......................................................</span>
+                                                </a>
+
+                                                <a href='Display_Data_01E_Display_Album_Category_Data_Display_Page.aspx?3/25/2023 9:37:21 PM&ID=J6IR3ASM&Page_ID=Admission_Notices&Cat=Notices&UC=85433f04-a74a-4875-80e6-fa0416929ad9&Title=News_Ticker'
+                                                    style="text-transform: initial !important; color: #000000 !important;"
+                                                    target="_blank">
+                                                    4. ऑनलाईन मेरीट व परीक्षा फॉर्म सूचना ( 2022 - 2023)
+                                                    <span
+                                                        style="color: blue !important; font-weight: bolder !important;">......................................................</span>
+                                                </a>
+
+                                                <a href='Display_Data_01E_Display_Album_Category_Data_Display_Page.aspx?3/25/2023 9:37:21 PM&ID=J6IR3ASM&Page_ID=Admission_Notices&Cat=Notices&UC=919bdfbb-51c5-4101-98dd-30d46af18c1a&Title=News_Ticker'
+                                                    style="text-transform: initial !important; color: #000000 !important;"
+                                                    target="_blank">
+                                                    5. वसंत नियतकालिक 2020-21 <a
+                                                        href=https://drive.google.com/file/d/1YMxxwfGnzvrKaNjP0MgptatHK4Lq91yI/view?usp=sharing
+                                                        style='color:red; font-weight:bold;'>Click here</a>
+                                                    <span
+                                                        style="color: blue !important; font-weight: bolder !important;">......................................................</span>
+                                                </a>
+
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="row"
+                        style="margin-top: 0% !important; padding-top: 0% !important; padding-bottom: 0px !important; margin-bottom: 0px !important;">
+                        <div class="col-md-12">
+                            <table class="table table-responsive">
+                                <tr>
+
+                                    <td class="text-center">
+                                        <div class="text_widget footer_widget"
+                                            style="background-color: rgb(113, 198, 255) !important; padding: 2% !important;">
+                                            <img id="ContentPlaceHolder1_rptrMentorImages_imgMentorImage_0"
+                                                src="https://png.pngtree.com/png-vector/20220608/ourmid/pngtree-unnamed-user-avatar-icon-profile-png-image_4816337.png"
+                                                alt="KVN Nashik" style="height:120px;width:100px;" />
+                                            <div class="footer_widget_title"
+                                                style="color: rgb(196, 43, 13) !important; font-weight: bold !important; padding: 5px 0px 5px 0px;">
+                                                Hon. ABC
+                                            </div>
+                                            <div class="footer_widget_content" style="color: white !important;">
+                                                Secretary, Nashik
+                                            </div>
+                                            <a id="ContentPlaceHolder1_rptrMentorImages_HyperLink1_0"
+                                                href="Mentors_02_Display_Mentor_Details.aspx?3/25/2023 9:37:21 PM&amp;ID=FKTPM5NH&amp;Page_ID=658fac07-281f-4797-be27-6aecc7a477e6&amp;Cat=Home_Page_Mentor&amp;UC=aec6ea0d-34bd-4948-90f9-e09c6bc0b5cc&amp;Title=Mentor"
+                                                style="color:Red;font-weight:bold;">Read More</a>
+                                        </div>
+                                    </td>
+
+                                    <td class="text-center">
+                                        <div class="text_widget footer_widget"
+                                            style="background-color: rgb(113, 198, 255) !important; padding: 2% !important;">
+                                            <img id="ContentPlaceHolder1_rptrMentorImages_imgMentorImage_1"
+                                                src="https://png.pngtree.com/png-vector/20220608/ourmid/pngtree-unnamed-user-avatar-icon-profile-png-image_4816337.png"
+                                                alt="KVN Nashik" style="height:120px;width:100px;" />
+                                            <div class="footer_widget_title"
+                                                style="color: rgb(196, 43, 13) !important; font-weight: bold !important; padding: 5px 0px 5px 0px;">
+                                                Hon. ABC
+                                            </div>
+                                            <div class="footer_widget_content" style="color: white !important;">
+                                                Secretary, Nashik
+                                            </div>
+                                            <a id="ContentPlaceHolder1_rptrMentorImages_HyperLink1_1"
+                                                href="Mentors_02_Display_Mentor_Details.aspx?3/25/2023 9:37:21 PM&amp;ID=FKTPM5NH&amp;Page_ID=658fac07-281f-4797-be27-6aecc7a477e6&amp;Cat=Home_Page_Mentor&amp;UC=e9ef2252-3138-4bd4-af04-78b858eed797&amp;Title=Mentor"
+                                                style="color:Red;font-weight:bold;">Read More</a>
+                                        </div>
+                                    </td>
+
+                                    <td class="text-center">
+                                        <div class="text_widget footer_widget"
+                                            style="background-color: rgb(113, 198, 255) !important; padding: 2% !important;">
+                                            <img id="ContentPlaceHolder1_rptrMentorImages_imgMentorImage_2"
+                                                src="https://png.pngtree.com/png-vector/20220608/ourmid/pngtree-unnamed-user-avatar-icon-profile-png-image_4816337.png"
+                                                alt="KVN Nashik" style="height:120px;width:100px;" />
+                                            <div class="footer_widget_title"
+                                                style="color: rgb(196, 43, 13) !important; font-weight: bold !important; padding: 5px 0px 5px 0px;">
+                                                Hon. XYZ
+                                            </div>
+                                            <div class="footer_widget_content" style="color: white !important;">
+                                                Secretary, Nashik
+                                            </div>
+                                            <a id="ContentPlaceHolder1_rptrMentorImages_HyperLink1_2"
+                                                href="Mentors_02_Display_Mentor_Details.aspx?3/25/2023 9:37:21 PM&amp;ID=FKTPM5NH&amp;Page_ID=658fac07-281f-4797-be27-6aecc7a477e6&amp;Cat=Home_Page_Mentor&amp;UC=721e88e3-9ef4-4002-a111-e7463116c4f4&amp;Title=Mentor"
+                                                style="color:Red;font-weight:bold;">Read More</a>
+                                        </div>
+                                    </td>
+
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+
+                    <div class="row" style="padding-bottom: 0px !important; margin-bottom: 0px !important;">
+                        <div class="col-md-12 text-center">
+                            <span id="ContentPlaceHolder1_lblError" style="color:Red;font-weight:normal;"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a id="ContentPlaceHolder1_lnkProcessModalPopUp"
+                href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$lnkProcessModalPopUp&#39;,&#39;&#39;)"></a>
+
+            <div id="ContentPlaceHolder1_pnlProcessModalPopUp" class="modal-dialog" style="display: none">
+
+                <div id="modalDialog" tabindex="-1" role="dialog" aria-labelledby="modalDialogLabel" aria-hidden="true">
+                    <div class="modal-dialog  modal-dialog-centered newsletter-sign-box">
+
+                        <div class="modal-content">
+                            <div id="ContentPlaceHolder1_divProcessModalPopUpTitle" class="modal-header alert-success">
+                                <h4 class="modal-title thin" id="modalDialogLabel">
+                                    <span id="ContentPlaceHolder1_lblProcessModalPopUpTitle"
+                                        style="font-weight:bold;">Header</span>
+                                </h4>
+                                <span id="ContentPlaceHolder1_lblProcessModalPopUpPage">User</span>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <span id="ContentPlaceHolder1_lblProcessModalPopUpBody" class="text-success"
+                                        style="font-weight:bold;">Information</span>
+                                    <img class="img-responsive" src="assets/img/eSequin_Images/NAAC_20211023.jpg"
+                                        style="height:75% !important;" />
+                                </p>
+                            </div>
+                            <div class="modal-footer" style="background-color: slategray !important;">
+                                <button id="ContentPlaceHolder1_btnProcessModalPopUpClose"
+                                    class="btn btn-file btn-success" data-dismiss="modal" aria-hidden="true"
+                                    style="font-weight: bold;">Click to Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <footer class="footer_section section_wrapper section_wrapper"
+                style="background-color: rgb(113, 198, 255) !important; padding-top: 0px !important; margin-top: 0px !important;">
+                <div class="footer_top_section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="text_widget footer_widget">
+                                    <div class="footer_widget_title">
+                                        <h2>
+                                            <span id="lblOrgNameFooter"
+                                                style="font-size: 1.2vw; color: black !important; font-weight: normal!important; text-decoration: underline !important; padding-top: 5% !important; padding-bottom: 5% !important">Sharda
+                                                College (BCA, BBA) Sinnar</span>
+                                        </h2>
+                                    </div>
+
+                                    <div class="footer_widget_content">
+                                        <div class="col-sm-12">
+                                            <span id="lblOrgAddressFooter"
+                                                style="font-family: 'Titillium Web', Open Sans; font-size: 1.3vw; color: #fff !important; text-transform: capitalize !important;">Adva
+                                                Phata Saradwadi Road, Sinnar, Tal Sinnar, Dist. Nashik (M.S.)
+                                                422103</span>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <span id="lblOrgContactFooter"
+                                                style="font-family: 'Titillium Web', Open Sans; font-size: 1.3vw; color: #fff !important; text-transform: capitalize !important;">Contact
+                                                No. :☎ 02551-220870</span>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <span id="lblOrgEmailIDFooter"
+                                                style="font-family: 'Titillium Web', Open Sans; font-size: 1.3vw; color: #fff !important;">Email
+                                                ID : sharda.college09@gmail.com, omsaitrust@gmail.com</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <!-- <div class="footer_widget">
+                                    <div class="footer_widget_title">
+                                        <h2 style="font-size: 1.2vw; color: yellow !important;">Discover</h2>
+                                    </div>
+                                    <div class="footer_menu_item ">
+                                        <div class="row">
+
+                                            <div class="col-sm-12">
+                                                <ul class="nav navbar-nav">
+                                                    <li><a href="_01_SuperAdminLogin.aspx">Super Admin</a></li>
+                                                    <li><a href="_02_AcademicStaffLogin.aspx">Acad. Staff</a></li>
+                                                    <li><a href="IQAC_NAAC_01_IQAC_NAAC_DashBoard.aspx">IQAC</a></li>
+                                                    <li><a href="Communication_02_Contact_Details.aspx">Contact
+                                                            Details</a></li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="text_widget footer_widget">
+                                    <div class="footer_widget_title">
+                                        <h2 style="font-size: 1.2vw; color: black !important;">About Us</h2>
+                                    </div>
+
+                                    <div class="footer_widget_content">
+                                        <span id="lblOrgIntroductionBottom">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit. Ea id corporis qui fugiat doloribus quam libero quae et.
+                                            Veritatis doloribus quos numquam quibusdam esse consequuntur animi ad
+                                            nostrum amet omnis? Et, beatae quo? Ut voluptates, repellat aperiam eligendi
+                                            pariatur iusto! Excepturi error qui, nesciunt autem ipsum quasi impedit
+                                            mollitia! Quod doloremque asperiores, quam voluptatem molestiae </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <span id="lblErrorMasterPage" style="color:Red;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="crunchify-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+
+                <div class="copyright-section">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-sm-12">
+                                <div class="copyright" style="color: white !important; font-weight: bold !important;">
+                                    ©
+                                    <span id="lblOrgNameBottomCopyright">Sharda
+                                        College (BCA, BBA) Sinnar</span> 2000 -
+                                    <script>
+                                        document.write(new Date().getFullYear());
+                                    </script>
+                                    All rights Reserved &nbsp;
+                                    <br /> &nbsp;
+                                    <span style="color: bla !important;">Web Site Design by <a
+                                            href="https://uiCookies.com" title="uiCookies" target="_blank">Suyog
+                                            Kulkarni</a>
+                                        Developed and Maintained By </span>
+                                    <!-- <a href="https://eSequin.com" target="_blank"
+                                        style="color: white !important; font-weight: bold !important;">
+                                        <img id="imgeSequin"
+                                            src="_02_Super_Admin/assets/eSequin_Images/eSequinLogoWord_258by235.png"
+                                            style="height:65px;width:75px;" />
+                                        eSequin Tech Labs
+
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+
+        <script src="assets/js/owl.carousel.js"></script>
+
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <script src="assets/js/script.js"></script>
+
+        <script src="assets/js/offcanvas.min.js"></script>
+
+
+
+
+
+
+        <script type="text/javascript">
+            //<![CDATA[
+            Sys.Application.add_init(function () {
+                $create(Sys.Extended.UI.ModalPopupBehavior, {
+                    "dynamicServicePath": "/Default.aspx",
+                    "id": "btnClose",
+                    "popupControlID": "ContentPlaceHolder1_pnlProcessModalPopUp"
+                }, null, null, $get("ContentPlaceHolder1_lnkProcessModalPopUp"));
+            });
+            //]]>
+        </script>
+    </form>
+</body>
+
+</html>
